@@ -49,10 +49,9 @@
     background-color: var(--warna);
     margin-top: 200px;
     margin-right: 100px;
-    clip-path: polygon(23% 0, 0% 100%, 100% 0);
+    clip-path: polygon(4% 83%, 6% 89%, 12% 89%, 100% 0, 23% 0);
     animation: arrow-rotate infinite 7s;
     animation-timing-function: linear;
-    transition: 0.5s;
 }
 
 .text-loading{
@@ -83,11 +82,11 @@
 
 @keyframes arrow-rotate {
     0%{
-        clip-path: polygon(23% 0, 0% 100%, 100% 0);
+        clip-path: polygon(4% 83%, 6% 89%, 12% 89%, 100% 0, 23% 0);
         transform: translate(0);
     }
     10%{
-        clip-path: polygon(50% 0, 50% 100%, 100% 50%);
+        clip-path: polygon(45% 5%, 45% 96%, 50% 100%, 100% 50%, 50% 0);
         transform: translate(150px,-30px);
     }
     15%{
@@ -97,26 +96,26 @@
         transform: translate(190px,-130px) rotate(-90deg);
     }
     25%{
-        clip-path: polygon(50% 0, 50% 100%, 100% 50%);
+        clip-path: polygon(45% 5%, 45% 96%, 50% 100%, 100% 50%, 50% 0);
         transform: translate(170px,-170px) rotate(-180deg);
     }
     30%{
         transform: translate(-50px,-170px) rotate(-180deg);
     }
     35%{
-        clip-path: polygon(50% 0, 50% 100%, 100% 50%);
+        clip-path: polygon(45% 5%, 45% 96%, 50% 100%, 100% 50%, 50% 0);
         transform: translate(-90px,-150px) rotate(-270deg);
     }
     40%{
-        clip-path: polygon(50% 0, 50% 100%, 100% 50%);
+        clip-path: polygon(45% 5%, 45% 96%, 50% 100%, 100% 50%, 50% 0);
         transform: translate(-90px,-70px) rotate(-270deg);
     }
     45%{
-        clip-path: polygon(50% 0, 50% 100%, 100% 50%);
+        clip-path: polygon(45% 5%, 45% 96%, 50% 100%, 100% 50%, 50% 0);
         transform: translate(-70px,-30px) rotate(-360deg);
     }
     60%{
-        clip-path: polygon(23% 0, 0% 100%, 100% 0);
+        clip-path: polygon(4% 83%, 6% 89%, 12% 89%, 100% 0, 23% 0);
         transform: translate(0);
     }
 }
